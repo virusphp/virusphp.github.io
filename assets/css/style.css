@@ -1,13 +1,21 @@
+body {
+    font: 15px/1.5 arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
 #header {
     width: 100%;
-    height: 100px;
-    background: #3498db;
+    height: 50px;
+    background: linear-gradient(to right, #33ccff 0%, #3333cc 100%);
     text-align: center;
+    color: white;
 }
 
 #header h1 {
     margin: 0;
-    line-height: 100px;
+    line-height: 50px;
 }
 
 #video-aktif {
@@ -24,10 +32,34 @@
 #nomor-aktif {
     height: 400px;
     text-align: center;
-    background: #95a5a6;
+    background: linear-gradient(to right, #f1c40f 0%, #f39c12 100%);
 }
 
 #nomor-aktif h1 {
     margin: 0;
     line-height: 400px;
+}
+
+#loket-1 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, #9b59b6 0%, #8e44ad 100%);
+}
+
+#loket-2 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, #9b59b6 0%, #8e44ad 100%);
+}
+
+#loket-3 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, #9b59b6 0%, #8e44ad 100%);
+}
+
+#loket-4 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, #9b59b6 0%, #8e44ad 100%);
 }

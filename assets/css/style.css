@@ -1,11 +1,14 @@
-body {
+html,body {
     font: 15px/1.5 arial, helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background: #ffffff;
+    height: 100vhm;
+    width: 100vhm;
+    overflow: hidden;
 }
 
-#header {
+header {
     width: 100%;
     height: 50px;
     background: linear-gradient(to right, #33ccff 0%, #3333cc 100%);
@@ -13,53 +16,35 @@ body {
     color: white;
 }
 
-#header h1 {
-    margin: 0;
-    line-height: 50px;
+.section-top {
+    height: 395px;
 }
 
-#video-aktif {
-    height: 400px;
-    text-align: center;
-    background: #34495e;
-}
-
-#video-aktif h1 {
-    margin: 0;
-    line-height: 400px;
-}
-
-#nomor-aktif {
-    height: 400px;
-    text-align: center;
+.active-number {
     background: linear-gradient(to right, #f1c40f 0%, #f39c12 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#nomor-aktif h1 {
-    margin: 0;
-    line-height: 400px;
+.active-number h1 {
+    font-size: 10rem;
+    color: whitesmoke;
 }
 
-#loket-1 {
-    width: 300px;
-    height: 300px;
+.loket {
+    width: 100%;
+    height: 215px;
     background: linear-gradient(to right, #9b59b6 0%, #8e44ad 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #cccccc;
 }
 
-#loket-2 {
-    width: 300px;
-    height: 300px;
-    background: linear-gradient(to right, #9b59b6 0%, #8e44ad 100%);
-}
-
-#loket-3 {
-    width: 300px;
-    height: 300px;
-    background: linear-gradient(to right, #9b59b6 0%, #8e44ad 100%);
-}
-
-#loket-4 {
-    width: 300px;
-    height: 300px;
-    background: linear-gradient(to right, #9b59b6 0%, #8e44ad 100%);
+marquee {
+    font-size: 25px;
 }

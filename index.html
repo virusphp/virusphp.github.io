@@ -1,47 +1,74 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
 
-    <title>MegonoDev | Aplikasi Antrian</title>
-  </head>
-  <body>
-      <div class="container-fluid">
-        <div class="row">
-          <div id="header">
-              <h1>MegonoDev | Aplikasi Antrian</h1>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-            <div id="video-aktif" class="col-8">
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/yVJdnvTmOb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div id="nomor-aktif" class="col-4">
-              <h1>NOMOR AKTIF</h1>
-            </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div id="loket-1" class="cal-3">L1</div>
-          <div id="loket-2" class="cal-3">L2</div>
-          <div id="loket-3" class="cal-3">L3</div>
-          <div id="loket-4" class="cal-3">L4</div>
-        </div>
-      </div>
+		<title>MegonoDev | Aplikasi Antrian</title>
+	</head>
+	<body>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
-    <script src="assets/js/propper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+		<!-- HEADER -->
+		<header>
+			<h1>MegonoDev | Aplikasi Antrian</h1>
+		</header>
+		
+		<!-- LIST INFO -->
+		<div class="container-fluid">
+			<div class="row section-top">
+				<div class="col-8 py-0 px-0">
+					<iframe width="100%" height="100%" src="https://www.youtube.com/embed/yVJdnvTmOb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="col-4 py-0 px-0 active-number">
+					<h1 id="active_number">A1</h1>
+				</div>
+			</div>
+		</div>
+
+		<!-- LIST LOKET -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-3 loket" id="loket1">A2</div>
+				<div class="col-3 loket" id="loket2">A3</div>
+				<div class="col-3 loket" id="loket3">A4</div>
+				<div class="col-3 loket" id="loket4">A5</div>
+			</div>
+		</div>
+
+		<footer>
+			<marquee>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste dolores corporis eaque. Amet, cumque nulla quod adipisci veritatis quis laborum et expedita voluptatibus itaque perspiciatis deserunt perferendis nihil repudiandae natus.</marquee>
+		</footer>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+		<script src="assets/js/propper.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+
+	<script>
+		const active_number = document.getElementById('active_number');
+		const loket1 = document.getElementById('loket1');
+		const loket2 = document.getElementById('loket2');
+		const loket3 = document.getElementById('loket3');
+		const loket4 = document.getElementById('loket4');
+
+		setInterval(() => {
+			active_number.innerHTML = 'A' + count(active_number);
+			loket1.innerHTML = 'A' + count(loket1);
+			loket2.innerHTML = 'A' + count(loket2);
+			loket3.innerHTML = 'A' + count(loket3);
+			loket4.innerHTML = 'A' + count(loket4);
+		}, 5000);
+
+		function count(el)
+		{
+			return (parseInt(el.innerHTML.split('A')[1]) + 1);
+		}
+	</script>
 </html>

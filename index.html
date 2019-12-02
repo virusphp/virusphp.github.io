@@ -1,47 +1,93 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>MegonoDev | Aplikasi Antrian</title>
-  </head>
-  <body>
-      <div class="container-fluid">
-        <div class="row">
-          <div id="header">
-              <h1>MegonoDev | Aplikasi Antrian</h1>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>MegonoDev | Aplikasi Antrian</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row p-1">
+      <div id="header" class="melengkung">
+        <h1>MegonoDev | Aplikasi Antrian</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-8 p-1" class="melengkung">
+        <div id="video-aktif" class="melengkung">
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/yVJdnvTmOb0" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-4 p-1">
+        <div id="nomor-aktif" class="melengkung">
+          <h1 class="text-light melengkung">ANTRIAN</h1>
+
+          <div class="antrian-aktif">
+            <span class="teks-besar text-light">A - 1</span>
           </div>
         </div>
       </div>
-      <div class="container-fluid">
-        <div class="row">
-            <div id="video-aktif" class="col-8">
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/yVJdnvTmOb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div id="nomor-aktif" class="col-4">
-              <h1>NOMOR AKTIF</h1>
-            </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-3 p-1">
+        <div id="loket" class="melengkung">
+          <h3 class="text-light melengkung">Loket A</h3>
+          
+          <div class="loket-nomer">
+            <span class="teks-besar text-light">A - 1</span>
+          </div>
+
+          <span class="text-center"></span>
         </div>
       </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div id="loket-1" class="cal-3">L1</div>
-          <div id="loket-2" class="cal-3">L2</div>
-          <div id="loket-3" class="cal-3">L3</div>
-          <div id="loket-4" class="cal-3">L4</div>
+      <div class="col-3 p-1">
+        <div id="loket" class="melengkung">
+          <h3 class="text-light melengkung">Loket B</h3>
+
+          <div class="loket-nomer">
+            <span class="teks-besar text-light">B - 1</span>
+          </div>
         </div>
       </div>
+      <div class="col-3 p-1">
+        <div id="loket" class="melengkung">
+          <h3 class="text-light melengkung">Loket C</h3>
+
+          <div class="loket-nomer">
+            <span class="teks-besar text-light">C - 1</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 p-1">
+        <div id="loket" class="melengkung">
+          <h3 class="text-light melengkung">Loket D</h3>
+
+          <div class="loket-nomer">
+            <span class="teks-besar text-light">D - 1</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
     <script src="assets/js/propper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>

@@ -18,14 +18,26 @@ header {
 
 .section-top {
     height: 395px;
+    display: flex;
+}
+
+.video-info {
+    width: 63%;
 }
 
 .active-number {
+    width: 35%;
     background: linear-gradient(to right, #f1c40f 0%, #f39c12 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.video-info, .active-number {
+    padding: 0;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 .active-number h1 {
@@ -34,9 +46,11 @@ header {
 }
 
 .loket {
-    width: 100%;
     height: 215px;
+    width: 24%;
     background: linear-gradient(to right, #9b59b6 0%, #8e44ad 100%);
+    margin: 6px 6px 0 6px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;

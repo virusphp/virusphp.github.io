@@ -1,0 +1,133 @@
+body {
+    font: 15px/1.5 arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #CAD3C8;
+    overflow: hidden;
+  }
+
+  .header {
+    /* width: 50%; */
+    height: 50px;
+    background: linear-gradient(to right, #3333cc, #6666fc);
+
+    text-align: center;
+    color: #F8EFBA;
+    margin-bottom: 1em;
+  }
+
+  .nomor-aktif {
+    /* border: 1px solid #000; */
+    border-radius: 40px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(46, 126, 204, 1) 0%, #3B3B98 80%) ;
+    width: 70%;
+    height: 100%;
+    /* box-shadow: 5px 10px 10px rgb(94, 116, 136); */
+  }
+
+  .judul-nomor-aktif {
+    width: 100%;
+    height: 60px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    /* border-bottom: 4px solid #82589F; */
+    line-height: 60px;
+    /* transform: translate(0, 10px); */
+    background: rgb(196, 225, 255);
+    color: #000;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .ket-nomor-aktif {
+    width: 100%;
+    height: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    /* border-bottom: 4px solid #82589F; */
+    line-height: 60px;
+    /* transform: translate(0, 10px); */
+    background: #3B3B98;
+    color: #F8EFBA;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .teks-nomor-aktif {
+    width: 100%;
+    height: 280px;
+    line-height: 280px;
+    /* border: 1px solid #fff; */
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  }
+
+  .video {
+    /* border: 1px solid #000; */
+    /* width: 80%; */
+    height: 400px;
+
+    box-shadow: 5px 10px 10px rgb(94, 116, 136);
+  }
+
+  .nomor-antrian {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 200px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    float: left;
+    box-shadow: 5px 10px 10px rgb(94, 116, 136);
+    /* text-align: center; */
+    background: linear-gradient(180deg, rgba(46, 126, 204, 1) 0%, #3B3B98 80%);
+
+  }
+  .teks-nomor-antrian {
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    /* border: 1px solid #fff; */
+    text-align: center;
+    font-size: 80px;
+
+    color: white;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  }
+
+  .judul-antrian {
+    margin: 0 auto;
+    /* border-width: 0px 1px 1px 1px;
+    border-style: solid; */
+    /* border : 1px solid #000; */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: rgb(196, 225, 255);
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    /* padding-top: 3em; */
+
+  }
+
+  /* .nomor-antrian h1 {
+
+    line-height: 160px;
+  } */
+
+  .running-teks {
+    width: 100%;
+    /* line-height: 52px; */
+    /* color:white; */
+    background: linear-gradient(to right, #f1c40f, #f39c12);
+    /* border: 1px solid #000; */
+  }
+  .running-teks h2 {
+    line-height: 52px;
+    width:100%;
+  }
